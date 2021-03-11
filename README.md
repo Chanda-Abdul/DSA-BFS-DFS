@@ -22,6 +22,8 @@ Depth-first search is like walking through a corn maze. You explore one path, hi
 - Depth-first search can be easily implemented with recursion.
 #### Disadvantages
 - A DFS doesn't necessarily find the shortest path to a node, while breadth-first search does.
-
+#
+- Remember that breadth-first uses a queue and depth-first uses a stack 
+- Those differences come from whether we visit nodes in the order we see them (first in, first out) or we visit the last-seen node first (last in, first out).
 ## LeetCode Problems
 
